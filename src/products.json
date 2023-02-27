@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "title": "Simyacı",
+    "author": "Paulo Coelho",
+    "price": 42.0,
+    "image": "https://img.kitapyurdu.com/v1/getImage/fn:11582810/wh:true/wi:800"
+  },
+  {
+    "id": 2,
+    "title": "Şeker Portakalı",
+    "author": "Jose Mauro de Vasconcelos",
+    "price": 30.0,
+    "image": "https://img.kitapyurdu.com/v1/getImage/fn:11462950/wh:true/wi:800"
+  },
+  {
+    "id": 3,
+    "title": "Hayvan Çiftliği",
+    "author": "George Orwell",
+    "price": 14.0,
+    "image": "https://img.kitapyurdu.com/v1/getImage/fn:11447395/wh:true/wi:800"
+  },
+  {
+    "id": 4,
+    "title": "1984",
+    "author": "George Orwell",
+    "price": 32.0,
+    "image": "https://img.kitapyurdu.com/v1/getImage/fn:11484453/wh:true/wi:800"
+  },
+  {
+    "id": 5,
+    "title": "Küçük Prens",
+    "author": "Antoine de Saint-Exupéry",
+    "price": 22.0,
+    "image": "https://img.kitapyurdu.com/v1/getImage/fn:11468334/wh:true/wi:800"
+  },
+  {
+    "id": 6,
+    "title": "Kürk Mantolu Madonna",
+    "author": "Sabahattin Ali",
+    "price": 12.0,
+    "image": "https://img.kitapyurdu.com/v1/getImage/fn:1207631/wh:true/wi:800"
+  },
+  {
+    "id": 7,
+    "title": "Otomatik Portakal",
+    "author": "Anthony Burgess",
+    "price": 23.0,
+    "image": "https://img.kitapyurdu.com/v1/getImage/fn:8539346/wh:true/wi:800"
+  },
+  {
+    "id": 8,
+    "title": "Satranç",
+    "author": "Stefan Zweig",
+    "price": 15.0,
+    "image": "https://img.kitapyurdu.com/v1/getImage/fn:3140181/wh:true/wi:800"
+  },
+  {
+    "id": 9,
+    "title": "Sineklerin Tanrısı",
+    "author": "William Golding",
+    "price": 35.0,
+    "image": "https://img.kitapyurdu.com/v1/getImage/fn:4060201/wh:true/wi:800"
+  },
+  {
+    "id": 10,
+    "title": "Hayvanlardan Tanrılara Sapiens İnsan Türünün Kısa Bir Tarihi",
+    "author": "Yuval Noah Harari",
+    "price": 85,
+    "image": "https://img.kitapyurdu.com/v1/getImage/fn:1459987/wh:true/wi:800"
+  },
+  {
+    "id": 11,
+    "title": "Martı Jonathan Livingston",
+    "author": "Richard Bach",
+    "price": 51.0,
+    "image": "https://img.kitapyurdu.com/v1/getImage/fn:7528415/wh:true/wi:800"
+  },
+  {
+    "id": 12,
+    "title": "Yabancı",
+    "author": "Albert Camus",
+    "price": 25.0,
+    "image": "https://img.kitapyurdu.com/v1/getImage/fn:11262270/wh:true/wi:800"
+  }
+]

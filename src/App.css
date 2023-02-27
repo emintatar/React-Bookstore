@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  border: 0;
+  outline: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background: #eee;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 5px;
+  padding: 10px;
+}
+
+/* !Header Component START */
+.header {
+  height: 60px;
+  background: linear-gradient(to bottom, #20b820, #14be2a);
+  color: #fff;
+  font-size: 24px;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.header span {
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+/* !Header Component END */
+
+/* ?Product Component START */
+.product {
+  width: 20%;
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.product img {
+  width: 100%;
+}
+
+.product h5 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.product h6 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.product .actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.actions button {
+  height: 40px;
+  padding: 0 15px;
+  cursor: pointer;
+}
+
+.actions button[disabled] {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.actions .amount {
+  width: 50px;
+  text-align: center;
+  border: 1px solid #ddd;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.actions .addBtn {
+  background: #61dafb;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.actions .removeBtn {
+  background: #ccc;
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.product .price {
+  font-size: 20px;
+  color: #179b17;
+  flex: 1;
+}
+
+/* ?Product Component END */
+
+/* RESPONSIVE START */
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .product {
+    width: 48%;
+    margin-bottom: 10px;
+  }
+
+  .product h5 {
+    font-size: 16px;
+  }
+
+  .product h6 {
+    font-size: 14px;
+  }
+}
+
+/* Basket Component START */
+
+.basketContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+.basketContainer h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.basketContainer .total {
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
+  color: #179b17;
+}
+
+.basketContainer .resetBtn {
+  background: #61dafb;
+  height: 40px;
+  padding: 0 20px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.basketItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Basket Component END */
+
+/* RESPONSIVE END */
